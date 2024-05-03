@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//         
+
+
+var urlRegex = /^(http|https):\/\/[a-zA-Z0-9\-._~:/?#[\]@!$&'()*+,;=%]+\.([a-zA-Z]+)$/;
+
+const url = prompt("Enter a regular expression pattern:");
+
+if (urlRegex.test(url)) {
+  alert("VALID URL")
+  console.log("Valid URL");
+} else {
+  alert("INVALID URL")
+  console.log("Invalid URL");
+}
+    </script>
+</body>
+</html>

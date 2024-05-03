@@ -1,0 +1,44 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+      var urlRegex = /^https:\/\/www\.linkedin\.com\/in\/[a-z0-9_-]{3,28}[a-z0-9]$/i;
+      const url = prompt("Enter a regular expression pattern:");
+
+   {/* 
+    
+     //Example of linkedin profile
+     
+      let v_URL = "https://www.linkedin.com/in/shri_Ram123";
+      let inv_URL = "https://www.linkedin.com/in/@shri";
+  
+
+
+  console.log(regex.test(v_URL));   // true
+  console.log(regex.test(inv_URL)); // false */}
+
+
+if (urlRegex.test(url)) {
+  alert("VALID URL")
+  console.log("Valid URL");
+}
+
+else {
+  alert("INVALID URL")
+  console.log("Invalid URL");
+}
+
+</script>
+</body>
+</html>
+
+  
+
+
+
+  
